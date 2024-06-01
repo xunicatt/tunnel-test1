@@ -1,7 +1,7 @@
 {
     "project": {
         "name": "test1",
-        "version": "1.1.45",
+        "version": "1.1.0",
         "package-url": "xunicatt/tunnel-test1",
         "build-executable": false,
         "author": "Aniket Biswas",
@@ -16,8 +16,12 @@
         }
     },
     "src": {
-        "includes": [],
-        "libs": [],
+        "includes": [
+            "includes"
+        ],
+        "libs": [
+            "libs"
+        ],
         "linker-flags": []
     },
     "deps": []
